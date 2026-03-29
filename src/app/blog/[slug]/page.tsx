@@ -177,6 +177,225 @@ const posts: Record<string, { title: string; description: string; date: string; 
 <h2>Conclusion</h2>
 <p>Good form design isn't about aesthetics — it's about removing friction. Start with fewer fields, single-column layout, and inline validation. Then test and iterate. <a href="/form-builder">Try FormForge</a> to build forms that follow these rules out of the box.</p>`,
   },
+  'typeform-alternatives-free': {
+    title: 'Best Free Typeform Alternatives in 2026',
+    description: 'Looking for a free Typeform alternative? Compare Tally, FormForge, JotForm, and more.',
+    date: '2026-03-22', readTime: '8 min',
+    content: `<p><strong>Typeform revolutionized online forms</strong> with its one-question-at-a-time approach. But at $25-83/month with strict response limits on the free plan (only 10 responses/month), many users are searching for alternatives.</p>
+
+<h2>Quick Comparison</h2>
+<table><thead><tr><th>Tool</th><th>Free Plan</th><th>Paid Starting</th><th>Best For</th></tr></thead>
+<tbody>
+<tr><td><strong>FormForge</strong></td><td>Unlimited, no signup</td><td>Free forever</td><td>Quick HTML forms</td></tr>
+<tr><td>Tally</td><td>Unlimited responses</td><td>$29/mo</td><td>Typeform-style UX</td></tr>
+<tr><td>JotForm</td><td>5 forms, 100 responses</td><td>$34/mo</td><td>Complex forms</td></tr>
+<tr><td>Google Forms</td><td>Unlimited</td><td>Free</td><td>Simple surveys</td></tr>
+<tr><td>HeyForm</td><td>Unlimited (self-host)</td><td>$0 (open source)</td><td>Privacy-focused</td></tr>
+</tbody></table>
+
+<h2>1. FormForge — Best for Quick HTML Forms</h2>
+<p><a href="/form-builder">FormForge</a> takes a different approach: instead of hosting your forms, it generates clean HTML + CSS code that you embed in your own website. No response limits, no branding, full control.</p>
+<p><strong>Best for:</strong> Developers and website owners who want full control over their forms.</p>
+
+<h2>2. Tally — Closest Typeform Experience</h2>
+<p>Tally is the most direct Typeform alternative. Similar one-question-at-a-time UX, unlimited responses on free, and a generous feature set.</p>
+<p><strong>Best for:</strong> Users who love Typeform's UX but not its pricing.</p>
+
+<h2>3. Google Forms — Best Completely Free Option</h2>
+<p>Unlimited forms, unlimited responses, zero cost. The design is basic but functional. Integrates with Google Sheets automatically.</p>
+<p><strong>Best for:</strong> Internal surveys, event registration, quick data collection.</p>
+
+<h2>4. JotForm — Most Features</h2>
+<p>JotForm has 10,000+ templates and the most form field types of any builder. The free plan is limited but the paid plans are feature-rich.</p>
+<p><strong>Best for:</strong> Complex forms with conditional logic, calculations, and integrations.</p>
+
+<h2>5. HeyForm — Best Open Source</h2>
+<p>Self-hosted, open source, Typeform-style UI. No response limits, no vendor lock-in. Requires technical setup but offers complete data ownership.</p>
+
+<h2>Conclusion</h2>
+<p>For Typeform-style UX, go with Tally. For full code control, use <a href="/form-builder">FormForge</a>. For zero-effort free, use Google Forms.</p>`,
+  },
+  'how-to-increase-form-conversion-rate': {
+    title: 'How to Increase Form Conversion Rate: 12 Proven Tactics',
+    description: 'Boost your form completion rates with these 12 evidence-based optimization techniques.',
+    date: '2026-03-19', readTime: '10 min',
+    content: `<p><strong>The average form conversion rate is 21.5%.</strong> That means nearly 4 out of 5 visitors who see your form don't complete it. Here are 12 proven tactics to improve that number.</p>
+
+<h2>1. Reduce Fields to the Minimum</h2>
+<p>Every additional field reduces conversion by 4-7%. Ask yourself: do you <em>really</em> need the phone number? The company name? The mailing address? If you can follow up by email alone, drop everything else.</p>
+
+<h2>2. Use a Single Column Layout</h2>
+<p>Multi-column forms confuse the eye. Users don't know whether to read left-to-right or top-to-bottom. Single column is faster and has higher completion rates in every A/B test.</p>
+
+<h2>3. Show Progress on Multi-Step Forms</h2>
+<p>If your form has more than 5 fields, break it into steps. Show a progress bar ("Step 2 of 3"). This reduces cognitive load and the commitment feels smaller.</p>
+
+<h2>4. Use Inline Validation</h2>
+<p>Show errors as users type, not after they submit. "Email format invalid" next to the field is infinitely better than a red banner at the top after submission.</p>
+
+<h2>5. Put Labels Above Fields</h2>
+<p>Top-aligned labels are read 50ms faster than left-aligned labels (Matteo Penzo, UX research). This adds up across a multi-field form.</p>
+
+<h2>6. Use Smart Defaults</h2>
+<p>Pre-fill country based on IP. Default to the most common option. Auto-format phone numbers. Every auto-fill saves a micro-decision.</p>
+
+<h2>7. Mobile-First Design</h2>
+<p>60%+ of form traffic is mobile. Use large tap targets (44px minimum), avoid dropdowns (use radio buttons), and test on actual phones.</p>
+
+<h2>8. Remove CAPTCHA (Use Honeypots Instead)</h2>
+<p>Visible CAPTCHAs reduce conversion by 3-5%. Honeypot fields (hidden fields that only bots fill) are invisible to humans and catch most spam.</p>
+
+<h2>9. Use a Compelling CTA</h2>
+<p>"Submit" is the worst CTA in existence. Use action-specific text: "Get My Free Quote," "Start My Trial," "Send My Message." Specific CTAs convert 10-30% better.</p>
+
+<h2>10. Add Social Proof Near the Form</h2>
+<p>"Join 10,000+ businesses" or a customer logo bar next to your signup form increases trust at the moment of commitment.</p>
+
+<h2>11. Use Autofocus on First Field</h2>
+<p>When the page loads, the cursor should be in the first field. One less click to start filling.</p>
+
+<h2>12. A/B Test Relentlessly</h2>
+<p>Test one thing at a time: CTA text, number of fields, single-step vs. multi-step. Small improvements compound.</p>
+
+<p>Build conversion-optimized forms with <a href="/form-builder">FormForge</a> — clean code, responsive design, zero bloat.</p>`,
+  },
+  'embed-form-on-website': {
+    title: 'How to Embed a Form on Any Website (HTML, WordPress, Wix)',
+    description: 'Step-by-step guide to embedding forms on your website using HTML, WordPress, Wix, Squarespace, and more.',
+    date: '2026-03-15', readTime: '7 min',
+    content: `<p><strong>Built a form. Now what?</strong> Getting your form onto your actual website depends on your platform. Here's how to embed forms everywhere.</p>
+
+<h2>Method 1: Direct HTML Embed</h2>
+<p>If you have access to your site's HTML (custom site, static site, Next.js, etc.), this is the cleanest method:</p>
+<ol>
+<li>Build your form in <a href="/form-builder">FormForge</a></li>
+<li>Copy the generated HTML code</li>
+<li>Paste it into your page's HTML where you want the form</li>
+<li>The CSS is included inline — no external dependencies</li>
+</ol>
+<p><strong>Pros:</strong> Full control, fast loading, no third-party scripts.</p>
+
+<h2>Method 2: WordPress</h2>
+<p>In WordPress, you have two options:</p>
+<ul>
+<li><strong>Custom HTML block:</strong> Edit the page → Add block → Custom HTML → Paste form code</li>
+<li><strong>Theme file:</strong> Edit your theme's PHP template and add the form HTML directly</li>
+</ul>
+<p>Avoid using WordPress form plugins if you already have the HTML — plugins add unnecessary JavaScript and slow your page.</p>
+
+<h2>Method 3: Wix</h2>
+<ol>
+<li>Go to your Wix editor</li>
+<li>Add Element → Embed → Custom Embed → Embed a Widget</li>
+<li>Paste your form HTML code</li>
+<li>Adjust the iframe size to fit your form</li>
+</ol>
+
+<h2>Method 4: Squarespace</h2>
+<ol>
+<li>Edit your page → Add block → Code</li>
+<li>Paste the HTML form code</li>
+<li>Note: Squarespace may strip some attributes on lower plans</li>
+</ol>
+
+<h2>Method 5: Shopify</h2>
+<p>Edit your theme (Online Store → Themes → Edit Code) and add the form HTML to your desired template file (e.g., page.contact.liquid).</p>
+
+<h2>Form Submission: Where Does the Data Go?</h2>
+<p>Your embedded form needs a backend to receive submissions. Options:</p>
+<ul>
+<li><strong>Formspree</strong> — Free tier, sends submissions to your email</li>
+<li><strong>Netlify Forms</strong> — Free for Netlify-hosted sites</li>
+<li><strong>Google Sheets (via Apps Script)</strong> — Free, stores in spreadsheet</li>
+<li><strong>Custom API endpoint</strong> — Full control, requires backend code</li>
+</ul>
+
+<p>Generate embeddable HTML forms in seconds with <a href="/form-builder">FormForge</a>.</p>`,
+  },
+  'conditional-logic-forms-guide': {
+    title: 'Conditional Logic in Forms: A Beginner\'s Guide',
+    description: 'Learn how to create dynamic forms that show or hide fields based on user answers.',
+    date: '2026-03-12', readTime: '8 min',
+    content: `<p><strong>Conditional logic makes forms smarter.</strong> Instead of showing every field to every user, dynamic forms adapt based on previous answers. "Are you a freelancer or a business?" → Show different fields for each.</p>
+
+<h2>What Is Conditional Logic?</h2>
+<p>Conditional logic (also called branching or skip logic) creates rules like:</p>
+<ul>
+<li><strong>Show field</strong> if [previous answer] equals [value]</li>
+<li><strong>Hide section</strong> if [checkbox] is not checked</li>
+<li><strong>Skip to step 3</strong> if [radio button] equals "No"</li>
+</ul>
+<p>This creates shorter, more relevant forms for each user — improving completion rates by 20-40%.</p>
+
+<h2>Common Use Cases</h2>
+<table><thead><tr><th>Scenario</th><th>Condition</th><th>Action</th></tr></thead>
+<tbody>
+<tr><td>Contact form</td><td>Reason = "Sales inquiry"</td><td>Show budget & timeline fields</td></tr>
+<tr><td>Registration</td><td>Country = "US"</td><td>Show state dropdown</td></tr>
+<tr><td>Survey</td><td>Satisfaction ≤ 3</td><td>Show "What went wrong?" textarea</td></tr>
+<tr><td>Order form</td><td>Shipping ≠ Billing</td><td>Show separate shipping address</td></tr>
+</tbody></table>
+
+<h2>How to Implement Conditional Logic</h2>
+
+<h3>Method 1: CSS-Only (Simple Cases)</h3>
+<p>For simple show/hide, you can use CSS with the <code>:checked</code> pseudo-class and sibling selectors. No JavaScript needed.</p>
+
+<h3>Method 2: JavaScript</h3>
+<p>For complex logic, add event listeners to trigger fields. Listen for <code>change</code> events on select/radio/checkbox elements, then toggle the <code>hidden</code> attribute on dependent fields.</p>
+
+<h3>Method 3: Form Builder Tools</h3>
+<p>Tools like Typeform, JotForm, and Tally have drag-and-drop conditional logic builders. No code required.</p>
+
+<h2>Best Practices</h2>
+<ol>
+<li><strong>Keep rules simple</strong> — If your logic requires a flowchart, your form is too complex</li>
+<li><strong>Don't hide required fields</strong> — If a field appears conditionally, make sure the form still validates correctly when it's hidden</li>
+<li><strong>Test every path</strong> — Click through every combination of answers to verify the logic works</li>
+<li><strong>Show progress</strong> — If logic changes the form length, update the progress indicator</li>
+</ol>
+
+<p>Start building forms with <a href="/form-builder">FormForge</a> — generate clean HTML you can enhance with your own conditional logic.</p>`,
+  },
+  'best-form-submission-handlers': {
+    title: 'Best Form Submission Handlers in 2026 (No Backend Required)',
+    description: 'Send form data to your email or spreadsheet without writing backend code. Compare Formspree, Getform, and more.',
+    date: '2026-03-10', readTime: '7 min',
+    content: `<p><strong>You've built a beautiful form. But where do the submissions go?</strong> If you don't have a backend, form submission handlers bridge the gap — they receive your form data and forward it to email, Slack, Sheets, or webhooks.</p>
+
+<h2>Top Form Submission Handlers</h2>
+<table><thead><tr><th>Service</th><th>Free Plan</th><th>Paid From</th><th>Integrations</th></tr></thead>
+<tbody>
+<tr><td><strong>Formspree</strong></td><td>50 submissions/mo</td><td>$8/mo</td><td>Email, Slack, Zapier, Sheets</td></tr>
+<tr><td><strong>Getform</strong></td><td>50 submissions/mo</td><td>$8/mo</td><td>Email, Slack, Airtable, Zapier</td></tr>
+<tr><td><strong>FormSubmit</strong></td><td>Unlimited</td><td>Free</td><td>Email only</td></tr>
+<tr><td><strong>Netlify Forms</strong></td><td>100 submissions/mo</td><td>Included in Pro</td><td>Email, Slack, webhook</td></tr>
+<tr><td><strong>Basin</strong></td><td>100 submissions/mo</td><td>$4/mo</td><td>Email, Slack, webhook, Zapier</td></tr>
+<tr><td><strong>Google Apps Script</strong></td><td>Unlimited</td><td>Free</td><td>Google Sheets (DIY)</td></tr>
+</tbody></table>
+
+<h2>1. Formspree — Best Overall</h2>
+<p>Point your form's <code>action</code> attribute to <code>https://formspree.io/f/YOUR_ID</code> and you're done. Submissions go to your email. Upgrade for spam filtering, file uploads, and integrations.</p>
+
+<h2>2. FormSubmit — Best Free (Unlimited)</h2>
+<p>Completely free, unlimited submissions, email-only delivery. Set your form action to <code>https://formsubmit.co/your@email.com</code>. Includes CAPTCHA and auto-response.</p>
+
+<h2>3. Google Sheets via Apps Script</h2>
+<p>The DIY option: create a Google Apps Script web app that receives POST data and writes to a Sheet. Free, unlimited, and you own the data. Requires ~20 lines of code.</p>
+
+<h2>4. Netlify Forms</h2>
+<p>If your site is on Netlify, add <code>netlify</code> attribute to your <code>&lt;form&gt;</code> tag. Zero configuration. Submissions appear in Netlify dashboard + email.</p>
+
+<h2>How to Connect FormForge Forms</h2>
+<ol>
+<li>Build your form in <a href="/form-builder">FormForge</a></li>
+<li>In the exported HTML, change the <code>action</code> attribute to your handler URL</li>
+<li>Set <code>method="POST"</code></li>
+<li>Deploy your page — submissions flow to your chosen handler</li>
+</ol>
+
+<p>Generate the form HTML with <a href="/form-builder">FormForge</a>, connect any submission handler, and you have a complete solution — no backend required.</p>`,
+  },
 };
 
 export async function generateStaticParams() {

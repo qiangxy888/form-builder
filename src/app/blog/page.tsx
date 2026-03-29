@@ -12,6 +12,11 @@ const posts = [
   { slug: 'best-free-form-builders-2026', title: 'Best Free Form Builders in 2026: Complete Comparison', description: 'Compare the top free form builders including Typeform, JotForm, Tally, and FormForge.', date: '2026-03-20', readTime: '8 min' },
   { slug: 'how-to-create-contact-form', title: 'How to Create a Contact Form for Your Website (No Coding)', description: 'Step-by-step guide to building a professional contact form without writing any code.', date: '2026-03-18', readTime: '6 min' },
   { slug: 'html-form-tutorial', title: 'HTML Form Tutorial: Build Forms from Scratch', description: 'Learn the fundamentals of HTML forms — inputs, labels, validation, and styling.', date: '2026-03-15', readTime: '10 min' },
+  { slug: 'typeform-alternatives-free', title: 'Best Free Typeform Alternatives in 2026', description: 'Looking for a free Typeform alternative? Compare Tally, FormForge, JotForm, and more.', date: '2026-03-22', readTime: '8 min' },
+  { slug: 'how-to-increase-form-conversion-rate', title: 'How to Increase Form Conversion Rate: 12 Proven Tactics', description: 'Boost your form completion rates with these 12 evidence-based optimization techniques.', date: '2026-03-19', readTime: '10 min' },
+  { slug: 'embed-form-on-website', title: 'How to Embed a Form on Any Website (HTML, WordPress, Wix)', description: 'Step-by-step guide to embedding forms on your website.', date: '2026-03-15', readTime: '7 min' },
+  { slug: 'conditional-logic-forms-guide', title: "Conditional Logic in Forms: A Beginner's Guide", description: 'Learn how to create dynamic forms that show or hide fields based on user answers.', date: '2026-03-12', readTime: '8 min' },
+  { slug: 'best-form-submission-handlers', title: 'Best Form Submission Handlers in 2026 (No Backend Required)', description: 'Send form data without writing backend code.', date: '2026-03-10', readTime: '7 min' },
 ];
 
 export default function BlogPage() {
